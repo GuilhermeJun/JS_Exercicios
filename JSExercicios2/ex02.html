@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Exercícios para a PS</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  </head>
+  <body>
+    <div class="container">
+      <form class="" action="index.html" method="post">
+        <div class="Ex02">
+          <h4>Preencha os campos abaixo e clique no botão enviar</h4>
+          <p>
+            <label for="">Nome:</label>
+            <input type="text" id="valorNome" class="form-control">
+            <label for="">Valor do Pedido:</label>
+            <input type="text" id="valorPedido" class="form-control">
+            <label for="">Estado:</label>
+            <select class="form-control" id="valorUF">
+              <option value="0">Selecione um Estado:</option>
+              <option value="1">AM</option>
+              <option value="2">ES</option>
+              <option value="3">GO</option>
+              <option value="4">MS</option>
+              <option value="5">PR</option>
+              <option value="6">RS</option>
+              <option value="7">SC</option>
+              <option value="8">SP</option>
+            </select>
+          </p>
+          <p>
+            <button type="submit" id="calcularPedido" class="btn btn-info">Enviar</button>
+          </p>
+        </div>
+      </form>
+    </div>
+    <script type="text/javascript" src="./js/jsex02.js"></script>
+  </body>
+</html>
